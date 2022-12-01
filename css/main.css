@@ -40,10 +40,20 @@ body > .socials > a {
 }
 
 .nav {
-  display: inline;
+  display: inline-block;
+  width: 50%;
 }
 .nav > .logo {
   font-size: 20px;
+  float: left;
+}
+
+.nav > .menu {
+  float: right;
+}
+.nav > .menu > a {
+  text-decoration: none;
+  color: black;
 }
 
 .main {
@@ -59,8 +69,6 @@ body > .socials > a {
   font-size: 85px;
   text-transform: uppercase;
   text-align: left;
-  margin: 0;
-  padding: 0;
 }
 
 .main-text {
